@@ -1,4 +1,3 @@
-
 # Bitespeed-Backend-Task-Identity-Reconciliation
 
 Make sure you have the following tools installed on your machine:
@@ -17,44 +16,41 @@ Make sure you have the following tools installed on your machine:
 2. Navigate to the project directory:
 
    ```bash
-   cd django-project
+   cd bitespeed_task
    ```
 
 3. Build Docker Image and start detached containers:
 
    ```bash
-   docker compose -f local.yml up --build -d 
+   docker compose -f local.yml up --build -d
    ```
 
-3. Apply DB migrations:
+4. Apply DB migrations:
 
    ```bash
-   docker compose -f local.yml run --rm django python manage.py makemigrations 
-   ``` 
+   docker compose -f local.yml run --rm django python manage.py makemigrations
+   ```
+
    ```bash
-   docker compose -f local.yml run --rm django python manage.py migrate 
-   ``` 
+   docker compose -f local.yml run --rm django python manage.py migrate
+   ```
 
 Now you're ready to access Identity endpoint!
 
 4. Shutting down containers:
 
    ```bash
-   docker compose -f local.yml down 
-   ``` 
-   
-
-
+   docker compose -f local.yml down
+   ```
 
 # Accessing Identity endpoint
 
-- Identity endpoint can be accessed via 
+- Identity endpoint can be accessed via
+
 ```bash
    http://localhost:8000/identity/
 ```
 
 # Resume
 
-- I have added my resume file as resume.pdf in the repo 
-
-
+- I have added my resume file as resume.pdf in the repo
