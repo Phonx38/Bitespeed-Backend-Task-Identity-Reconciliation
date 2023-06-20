@@ -43,12 +43,12 @@ Now you're ready to access Identity endpoint!
    docker compose -f local.yml down
    ```
 
-# Accessing Identity endpoint
+# Accessing Identify endpoint
 
-- Identity endpoint can be accessed via
+- Identify endpoint can be accessed via
 
 ```bash
-   http://localhost:8000/identity/
+   http://localhost:8000/identify/
 ```
 
 # Resume
