@@ -1,0 +1,40 @@
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.ipynb
+.ipynb_checkpoints
+*.sublime-project
+*.sublime-workspace
+*.sublime-workspace
+*.idea/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+media
+
+# Database
+*.sqlite3
+*.db
+
+# Virtualenv
+myenv/
+.venv/
+ENV/
+
+# Other
+*.DS_Store
+*.swp
+*.swo
+*.bak
+*~
